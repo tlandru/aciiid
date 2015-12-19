@@ -1,0 +1,30 @@
+{
+  "name": "aciiid",
+  "version": "0.0.1",
+  "description": "aciiid website with react",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify -v -t [ babelify --presets [ react ] ] src/main.jsx -o public/js/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlandru/aciiid.git"
+  },
+  "author": "tlandru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tlandru/aciiid/issues"
+  },
+  "homepage": "https://github.com/tlandru/aciiid#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "watchify": "^3.6.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13"
+  }
+}
